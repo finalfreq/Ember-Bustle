@@ -17,7 +17,7 @@ body {
 
 .container {
   background: #DBDBDB;
-  height: 150%;
+  /*height: 150%;*/
 }
 
 .container-fluid {
@@ -27,4 +27,13 @@ body {
 .navbar-header .navbar-brand {
   color: #DBDBDB;
   background: #2E3233;
+  margin-bottom: 0;
+}
+
+.container .main {
+  padding-bottom: 20px;
+}
+
+#sicons {
+  float: right;
 }

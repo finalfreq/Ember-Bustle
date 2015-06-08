@@ -12,6 +12,18 @@
           <li>{{#link-to 'home'}}Contact{{/link-to}}</li>
         </ul>
       </div>
+      <div id="sicons">
+        {{#if notClicked }}
+        <img {{action 'socialMedia'}}src="http://i.imgur.com/B0cij9b.png" alt="" />
+        {{else}}
+        <ul class="nav navbar-nav">
+          <a href="https://www.facebook.com/AirBudOfficial"><img src="http://i.imgur.com/AvhAdaj.png" alt="" /></a>
+          <a href="https://twitter.com/airbud"><img src="http://i.imgur.com/r4yXK8t.png" alt="" /></a>
+          <a href="https://www.tumblr.com/tagged/air-bud"><img src="http://i.imgur.com/sNbtd78.png" alt="" /></a>
+          <a href="http://www.eonline.com/news/35939/hollywood-mourns-loss-of-air-bud"><img src="http://i.imgur.com/Dv5Vx63.png" alt="" /></a>
+        </ul>
+        {{/if}}
+      </div>
     </div>
   </nav>
   {{outlet}}
