@@ -1,13 +1,11 @@
 <h1 class="page-header text-center">UR #1 CONNECT 4 AIR BUD NEWZ:</h1>
 
-<h1>{{imgArray}}</h1>
-
 <div class="text-center">
   <a href="#" {{action 'leftArrow'}}><img id="left-arrow" src="http://i.imgur.com/cbcWhZi.png"/></a>
 
-  <img {{bind-attr src=imgSource}} alt="banner"/>
-  <a href="#" {{action 'rightArrow'}}></a>
-  <img id="right-arrow" src="http://i.imgur.com/vr0mYS5.png"/>
+  <img class="img-circle" {{bind-attr src=imgSource}} alt="banner"/>
+  <a href="#" {{action 'rightArrow'}}>
+  <img id="right-arrow" src="http://i.imgur.com/vr0mYS5.png"/></a>
 </div>
 
 <div class="row">
