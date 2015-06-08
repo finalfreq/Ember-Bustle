@@ -1,11 +1,18 @@
 <div class="container">
 
   <nav class='navbar navbar-default' role='navigation'>
-    <ul class="nav navbar-nav">
-      <li>{{#link-to 'home'}}Posts{{/link-to}}</li>
-      <li>{{#link-to 'home'}}About{{/link-to}}</li>
-      <li>{{#link-to 'home'}}Contact{{/link-to}}</li>
-    </ul>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Bustle</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li>{{#link-to 'home'}}Posts{{/link-to}}</li>
+          <li>{{#link-to 'home'}}About{{/link-to}}</li>
+          <li>{{#link-to 'home'}}Contact{{/link-to}}</li>
+        </ul>
+      </div>
+    </div>
   </nav>
   {{outlet}}
 </div>

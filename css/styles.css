@@ -1,3 +1,30 @@
 .nav li:hover {
   background: silver;
 }
+
+#left-arrow:hover, #right-arrow:hover {
+  background: #E2E3DF;
+  cursor: pointer;
+}
+.nav {
+  background: #E2E3DF;
+}
+
+body {
+  color: #595241;
+  background: url('../img/back.jpg');
+}
+
+.container {
+  background: #DBDBDB;
+  height: 120%;
+}
+
+.container-fluid {
+  background: #CCCBC9;
+}
+
+.navbar-header .navbar-brand {
+  color: #DBDBDB;
+  background: #2E3233;
+}

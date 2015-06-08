@@ -1,22 +1,32 @@
-<h1>UR #1 CONNECT 4 AIR BUD NEWZ:</h1>
+<h1 class="page-header text-center">UR #1 CONNECT 4 AIR BUD NEWZ:</h1>
+
+<h1>{{imgArray}}</h1>
+
+<div class="text-center">
+  <a href="#" {{action 'leftArrow'}}><img id="left-arrow" src="http://i.imgur.com/cbcWhZi.png"/></a>
+
+  <img {{bind-attr src=imgSource}} alt="banner"/>
+  <a href="#" {{action 'rightArrow'}}></a>
+  <img id="right-arrow" src="http://i.imgur.com/vr0mYS5.png"/>
+</div>
 
 <div class="row">
-  <div class="col-sm-4 col-sm-offset-1" id="article1">
+  <div class="col-md-4 col-md-offset-1 col-sm-6" id="article1">
     <h3>Dog Plays Football</h3>
     {{#link-to 'article1'}}<img class="img-responsive" src="http://s3.amazonaws.com/auteurs_production/images/film/air-bud-golden-receiver/w448/air-bud-golden-receiver.jpg?1289440196" alt="" />{{/link-to}}
   </div>
-  <div class="col-sm-4 col-sm-offset-1" id="article2">
+  <div class="col-md-4 col-md-offset-1 col-sm-6" id="article2">
     <h3>Dog Wears Sunglasses</h3>
     {{#link-to 'article2'}}<img class="img-responsive" src="http://www.matchcollegiate.org/wp-content/uploads/2015/04/air-bud-sunglasses.jpg" alt="" />{{/link-to}}
   </div>
 </div>
 
 <div class="row">
-  <div class="col-sm-4 col-sm-offset-1" id="article3">
+  <div class="col-md-4 col-md-offset-1 col-sm-6" id="article3">
     <h3>Cruel Child Denies Dog Basketball, Hoop Dreams</h3>
     {{#link-to 'article3'}}<img class="img-responsive" src="http://supermookinfiends.com/wp-content/uploads/2014/11/photo7f_CR.jpg" alt="" />{{/link-to}}
   </div>
-  <div class="col-sm-4 col-sm-offset-1" id="article4">
+  <div class="col-md-4 col-md-offset-1 col-sm-6 " id="article4">
     <h3>Terrifying Clown Appears in Movie Intended for Children</h3>
     {{#link-to 'article4'}}<img class="img-responsive" src="http://psimovie.com/images/air-bud/scr-1.jpg" alt="" />{{/link-to}}
 
